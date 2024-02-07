@@ -4,7 +4,7 @@ import fetchMessages from './fetch-messages.js';
 export default defineTrigger({
   name: 'Receive SMS',
   key: 'receiveSms',
-  pollInterval: 15,
+  pollInterval: 1,
   description: 'Triggers when a new SMS is received.',
   arguments: [
     {
